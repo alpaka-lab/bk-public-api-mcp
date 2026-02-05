@@ -1,4 +1,4 @@
-# bitkub-api-mcp
+# bk-public-api-mcp
 
 MCP (Model Context Protocol) server for Bitkub cryptocurrency exchange API:
 - **[Bitkub](https://www.bitkub.com/)** - Thailand's leading cryptocurrency exchange
@@ -73,9 +73,9 @@ Add to your Claude Desktop configuration file:
 ```json
 {
   "mcpServers": {
-    "bitkub-api-mcp": {
+    "bk-public-api-mcp": {
       "command": "node",
-      "args": ["/path/to/bitkub-api-mcp/dist/index.js"]
+      "args": ["/path/to/bk-public-api-mcp/dist/index.js"]
     }
   }
 }
@@ -85,9 +85,9 @@ Add to your Claude Desktop configuration file:
 ```json
 {
   "mcpServers": {
-    "bitkub-api-mcp": {
+    "bk-public-api-mcp": {
       "command": "node",
-      "args": ["/path/to/bitkub-api-mcp/dist/index.js"],
+      "args": ["/path/to/bk-public-api-mcp/dist/index.js"],
       "env": {
         "BITKUB_API_KEY": "your-bitkub-api-key-here",
         "BITKUB_API_SECRET": "your-bitkub-api-secret-here"
@@ -98,7 +98,7 @@ Add to your Claude Desktop configuration file:
 ```
 
 Replace:
-- `/path/to/bitkub-api-mcp` with the actual path to this project
+- `/path/to/bk-public-api-mcp` with the actual path to this project
 - `your-bitkub-api-key-here` and `your-bitkub-api-secret-here` with your Bitkub API credentials
 
 ## Available Tools
